@@ -38,6 +38,7 @@ entity Nano_processor is
                 Flag_overflow: out STD_LOGIC;
                 Flag_Zero: out STD_LOGIC;
                 Flag_C_out: out STD_LOGIC;
+                Flag_Sign : out STD_LOGIC;
                 AnodeSelector : out STD_LOGIC_VECTOR(3 downto 0);
                 S_7Seg : out STD_LOGIC_VECTOR (6 downto 0));
 end Nano_processor;
@@ -241,7 +242,8 @@ begin
         port map(   address => Register7_out,
                     data => S_7Seg );  
     
-    Flag_C_out <= ALU_C_out OR adder_C_out;               
+    Flag_C_out <= ALU_C_out OR adder_C_out;
+    Flag_Sign <= ALU_output(0);               
     output <= Register7_out;
     AnodeSelector <= "1110";
 

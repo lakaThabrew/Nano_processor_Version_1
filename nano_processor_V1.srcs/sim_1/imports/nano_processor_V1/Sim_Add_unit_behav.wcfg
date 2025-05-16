@@ -3,64 +3,52 @@
    <wave_state>
    </wave_state>
    <db_ref_list>
-      <db_ref path="sim_Instuction_Decoder_behav.wdb" id="1">
+      <db_ref path="Sim_nano_processor_behav.wdb" id="1">
          <top_modules>
-            <top_module name="sim_Instuction_Decoder" />
+            <top_module name="Sim_nano_processor" />
          </top_modules>
       </db_ref>
    </db_ref_list>
    <zoom_setting>
       <ZoomStartTime time="0fs"></ZoomStartTime>
-      <ZoomEndTime time="48467674512fs"></ZoomEndTime>
+      <ZoomEndTime time="78106180509fs"></ZoomEndTime>
       <Cursor1Time time="115108000fs"></Cursor1Time>
    </zoom_setting>
    <column_width_setting>
-      <NameColumnWidth column_width="91"></NameColumnWidth>
+      <NameColumnWidth column_width="87"></NameColumnWidth>
       <ValueColumnWidth column_width="58"></ValueColumnWidth>
    </column_width_setting>
-   <WVObjectSize size="11" />
-   <wvobject fp_name="/sim_Instuction_Decoder/Instruction_Bus_tb" type="array">
-      <obj_property name="ElementShortName">Instruction_Bus_tb[11:0]</obj_property>
-      <obj_property name="ObjectShortName">Instruction_Bus_tb[11:0]</obj_property>
+   <WVObjectSize size="8" />
+   <wvobject fp_name="/Sim_nano_processor/tb_Reset" type="logic">
+      <obj_property name="ElementShortName">tb_Reset</obj_property>
+      <obj_property name="ObjectShortName">tb_Reset</obj_property>
    </wvobject>
-   <wvobject fp_name="/sim_Instuction_Decoder/Instruction_Bus_tb" type="array">
-      <obj_property name="ElementShortName">Instruction_Bus_tb[11:0]</obj_property>
-      <obj_property name="ObjectShortName">Instruction_Bus_tb[11:0]</obj_property>
+   <wvobject fp_name="/Sim_nano_processor/tb_Clk" type="logic">
+      <obj_property name="ElementShortName">tb_Clk</obj_property>
+      <obj_property name="ObjectShortName">tb_Clk</obj_property>
    </wvobject>
-   <wvobject fp_name="/sim_Instuction_Decoder/Reg_Check_Jump_tb" type="array">
-      <obj_property name="ElementShortName">Reg_Check_Jump_tb[3:0]</obj_property>
-      <obj_property name="ObjectShortName">Reg_Check_Jump_tb[3:0]</obj_property>
+   <wvobject fp_name="/Sim_nano_processor/tb_Output" type="array">
+      <obj_property name="ElementShortName">tb_Output[3:0]</obj_property>
+      <obj_property name="ObjectShortName">tb_Output[3:0]</obj_property>
    </wvobject>
-   <wvobject fp_name="/sim_Instuction_Decoder/Reg_Enable_tb" type="array">
-      <obj_property name="ElementShortName">Reg_Enable_tb[2:0]</obj_property>
-      <obj_property name="ObjectShortName">Reg_Enable_tb[2:0]</obj_property>
+   <wvobject fp_name="/Sim_nano_processor/tb_Flag_overflow" type="logic">
+      <obj_property name="ElementShortName">tb_Flag_overflow</obj_property>
+      <obj_property name="ObjectShortName">tb_Flag_overflow</obj_property>
    </wvobject>
-   <wvobject fp_name="/sim_Instuction_Decoder/Load_Sel_tb" type="logic">
-      <obj_property name="ElementShortName">Load_Sel_tb</obj_property>
-      <obj_property name="ObjectShortName">Load_Sel_tb</obj_property>
+   <wvobject fp_name="/Sim_nano_processor/tb_Flag_Zero" type="logic">
+      <obj_property name="ElementShortName">tb_Flag_Zero</obj_property>
+      <obj_property name="ObjectShortName">tb_Flag_Zero</obj_property>
    </wvobject>
-   <wvobject fp_name="/sim_Instuction_Decoder/Imm_Value_tb" type="array">
-      <obj_property name="ElementShortName">Imm_Value_tb[3:0]</obj_property>
-      <obj_property name="ObjectShortName">Imm_Value_tb[3:0]</obj_property>
+   <wvobject fp_name="/Sim_nano_processor/tb_Flag_C_out" type="logic">
+      <obj_property name="ElementShortName">tb_Flag_C_out</obj_property>
+      <obj_property name="ObjectShortName">tb_Flag_C_out</obj_property>
    </wvobject>
-   <wvobject fp_name="/sim_Instuction_Decoder/Reg_Sel_1_tb" type="array">
-      <obj_property name="ElementShortName">Reg_Sel_1_tb[2:0]</obj_property>
-      <obj_property name="ObjectShortName">Reg_Sel_1_tb[2:0]</obj_property>
+   <wvobject fp_name="/Sim_nano_processor/tb_Flag_Sign" type="logic">
+      <obj_property name="ElementShortName">tb_Flag_Sign</obj_property>
+      <obj_property name="ObjectShortName">tb_Flag_Sign</obj_property>
    </wvobject>
-   <wvobject fp_name="/sim_Instuction_Decoder/Reg_Sel_2_tb" type="array">
-      <obj_property name="ElementShortName">Reg_Sel_2_tb[2:0]</obj_property>
-      <obj_property name="ObjectShortName">Reg_Sel_2_tb[2:0]</obj_property>
-   </wvobject>
-   <wvobject fp_name="/sim_Instuction_Decoder/Add_Sub_Sel_tb" type="logic">
-      <obj_property name="ElementShortName">Add_Sub_Sel_tb</obj_property>
-      <obj_property name="ObjectShortName">Add_Sub_Sel_tb</obj_property>
-   </wvobject>
-   <wvobject fp_name="/sim_Instuction_Decoder/Jump_flag_tb" type="logic">
-      <obj_property name="ElementShortName">Jump_flag_tb</obj_property>
-      <obj_property name="ObjectShortName">Jump_flag_tb</obj_property>
-   </wvobject>
-   <wvobject fp_name="/sim_Instuction_Decoder/Address_Jump_tb" type="array">
-      <obj_property name="ElementShortName">Address_Jump_tb[2:0]</obj_property>
-      <obj_property name="ObjectShortName">Address_Jump_tb[2:0]</obj_property>
+   <wvobject fp_name="/Sim_nano_processor/tb_S_7Seg" type="array">
+      <obj_property name="ElementShortName">tb_S_7Seg[6:0]</obj_property>
+      <obj_property name="ObjectShortName">tb_S_7Seg[6:0]</obj_property>
    </wvobject>
 </wave_config>
