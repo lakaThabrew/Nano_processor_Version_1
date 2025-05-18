@@ -88,7 +88,7 @@ begin
                  C_out => carry);
       
       S <= S_RCA_4 ; 
-      c_out <= carry;           
+      C_out <= carry;           
       Zero <= '1' when S_RCA_4 = "0000" and ((M = '0' and carry = '0') or (M = '1' and carry = '1')) else '0';
       Overflow <= (A(3) xor z3) and (A(3) xor S_RCA_4(3));
 
