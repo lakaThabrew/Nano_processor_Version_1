@@ -1,6 +1,6 @@
 Vivado Simulator 2018.1
 Copyright 1986-1999, 2001-2017 Xilinx, Inc. All Rights Reserved.
-Running: D:/Vivado/2018.1/bin/unwrapped/win64.o/xelab.exe -wto a76c10fdc8f74f14b65949ae1dc55e79 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot sim_Adder_3bit_behav xil_defaultlib.sim_Adder_3bit -log elaborate.log 
+Running: D:/Vivado/2018.1/bin/unwrapped/win64.o/xelab.exe -wto a76c10fdc8f74f14b65949ae1dc55e79 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Sim_nano_processor_behav xil_defaultlib.Sim_nano_processor -log elaborate.log 
 Using 2 slave threads.
 Starting static elaboration
 Completed static elaboration
