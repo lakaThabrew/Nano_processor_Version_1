@@ -45,6 +45,7 @@ entity Mux_8_4bit is
             Y : out STD_LOGIC_VECTOR (3 downto 0));
 end Mux_8_4bit;
 
+
 architecture Behavioral of Mux_8_4bit is
 
 begin

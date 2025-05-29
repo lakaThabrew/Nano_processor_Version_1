@@ -1,7 +1,7 @@
 Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2018.1 (win64) Build 2188600 Wed Apr  4 18:40:38 MDT 2018
-| Date         : Mon May 26 15:55:53 2025
+| Date         : Thu May 29 17:35:39 2025
 | Host         : DESKTOP-NP5NV58 running 64-bit major release  (build 9200)
 | Command      : report_control_sets -verbose -file Nano_processor_control_sets_placed.rpt
 | Design       : Nano_processor
@@ -62,8 +62,8 @@ Table of Contents
 +-----------------+---------------------------+------------------------------+------------------+----------------+
 |   Clock Signal  |       Enable Signal       |       Set/Reset Signal       | Slice Load Count | Bel Load Count |
 +-----------------+---------------------------+------------------------------+------------------+----------------+
-|  Slow_Clk_0/CLK |                           |                              |                2 |              3 |
 |  Clk_IBUF_BUFG  |                           |                              |                2 |              3 |
+|  Slow_Clk_0/CLK |                           |                              |                2 |              3 |
 |  Slow_Clk_0/CLK | pc_0/D_FF_1/Reg_Enable[1] | Reset_IBUF                   |                3 |              4 |
 |  Slow_Clk_0/CLK | pc_0/D_FF_1/Reg_Enable[0] | Reset_IBUF                   |                1 |              4 |
 |  Slow_Clk_0/CLK | pc_0/D_FF_1/Q_reg[0]_0    | Reset_IBUF                   |                4 |              8 |
